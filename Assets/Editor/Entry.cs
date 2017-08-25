@@ -16,7 +16,7 @@ public class Entry : MonoBehaviour {
     private static void Initialize()
     {
         EditorApplication.update -= Initialize;
-        var str = new InternalClass().AProp;
-        Debug.Log(str);
+        var cl = new ExternalLibrary.CalledClass();
+        Debug.Log("created");
     }
 }

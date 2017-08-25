@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{A55A5912-8214-72DA-9134-DEE13AD944EC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -55,6 +54,10 @@
   <ItemGroup>
     <ProjectReference Include="ExternalLibrary.csproj">
       <Project>{1c66de16-36f6-4fa1-bf01-64f88ccff73a}</Project>
+      <Name>ExternalLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="ExternalLibrary2.csproj">
+      <Project>{2c66de16-36f6-4fa1-bf01-64f88ccff73a}</Project>
       <Name>ExternalLibrary</Name>
     </ProjectReference>
   </ItemGroup>

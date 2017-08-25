@@ -7,11 +7,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1C66DE16-36F6-4FA1-BF01-64F88CCFF73A}</ProjectGuid>
+    <ProjectGuid>{2C66DE16-36F6-4FA1-BF01-64F88CCFF73A}</ProjectGuid>
     <ProjectTypeGuids>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
-    <RootNamespace>ExternalLibrary</RootNamespace>
-    <AssemblyName>ExternalLibrary</AssemblyName>
+    <RootNamespace>ExternalLibrary2</RootNamespace>
+    <AssemblyName>ExternalLibrary2</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,13 +39,9 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <ProjectReference Include="ExternalLibrary2.csproj">
-      <Project>{2c66de16-36f6-4fa1-bf01-64f88ccff73a}</Project>
-      <Name>ExternalLibrary</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalledClass.cs" />
+    <Compile Include="IndirectCalledClass.cs" />
     <Compile Include="AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

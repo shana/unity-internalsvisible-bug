@@ -2,6 +2,12 @@
 {
     class InternalClass
     {
-        public string AProp { get { return ExternalLibrary.CalledClass.GetString(GetType()); }}
+        public string AProp {
+            get
+            {
+                new ExternalLibrary.CalledClass();
+                return "something";
+            }
+        }
     }
 }

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalLibrary", "ExternalLibrary.csproj", "{1C66DE16-36F6-4FA1-BF01-64F88CCFF73A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalLibrary2", "ExternalLibrary2.csproj", "{2C66DE16-36F6-4FA1-BF01-64F88CCFF73A}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EditorLibrary", "EditorLibrary.csproj", "{A55A5912-8214-72DA-9134-DEE13AD944EC}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{1C66DE16-36F6-4FA1-BF01-64F88CCFF73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C66DE16-36F6-4FA1-BF01-64F88CCFF73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C66DE16-36F6-4FA1-BF01-64F88CCFF73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C66DE16-36F6-4FA1-BF01-64F88CCFF73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C66DE16-36F6-4FA1-BF01-64F88CCFF73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C66DE16-36F6-4FA1-BF01-64F88CCFF73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C66DE16-36F6-4FA1-BF01-64F88CCFF73A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A55A5912-8214-72DA-9134-DEE13AD944EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A55A5912-8214-72DA-9134-DEE13AD944EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A55A5912-8214-72DA-9134-DEE13AD944EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
