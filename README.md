@@ -2,7 +2,7 @@ Repro of a InternalsVisibleTo bug in Unity 2017.x with 4.6 scripting runtime
 
 ![](console-output.png)
 
-`EntryPoint` creates an instance of `CalledClass` in `ExternalLibrary.csproj`,
+`Entry` creates an instance of `CalledClass` in `ExternalLibrary.csproj`,
 which has a static property that triggers a call to `IndirectCalledClass` in `ExternalLibrary2.csproj`.
 `IndirectCalledClass` throws with
 
